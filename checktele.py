@@ -298,7 +298,7 @@ async def _(event):
 async def _(event):
     try:
     	await sython(functions.channels.JoinChannelRequest(
-    	channel='lucithon'
+    	channel='fofo18h'
     	))
     except:
     	pass
