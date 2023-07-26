@@ -1,4 +1,4 @@
 
-### تابع : [LUCITHON](https://t.me/LUCITHON) ###
+### تابع : [فوفو](https://t.me/fofo18h) ###
 
-![LUCITHON](https://telegra.ph/file/4992d6e018a251fee31b1.jpg)
+![فوفو](https://telegra.ph/file/6e167a4df688c2f92b556.jpg)

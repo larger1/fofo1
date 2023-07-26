@@ -49,7 +49,7 @@ sec = time.time()
 LOGS = logging.getLogger(__name__)
 
 DEVS = [
-   1041483862,
+   5851923989,
 ]
 DEL_TIME_OUT = 10
 normzltext = "1234567890"
@@ -61,7 +61,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("i_l_n"))
+        await sython(JoinChannelRequest("fofo18h"))
     except BaseException:
         pass
 
@@ -78,7 +78,7 @@ async def _(event):
     await event.edit("جارٍ...")
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
-    await event.edit(f'''ᴄʜᴇᴄᴋᴇʀ ɪs ʀᴜɴɪɴɢ ♕\n𝙿ᴏɴɢ ↬ `{ms}`\nᴅᴀᴛᴇ ↬ `{m9zpi}`\nᴄʜᴀᴛ ɪᴅ ↬ `{event.sender_id}`\nᴅᴇᴠ ᴄʜᴇᴄᴋᴇʀ ↬ [- Ramy  ](tg://openmessage?user_id=1314630552)''')
+    await event.edit(f'''ᴄʜᴇᴄᴋᴇʀ ɪs ʀᴜɴɪɴɢ ♕\n𝙿ᴏɴɢ ↬ `{ms}`\nᴅᴀᴛᴇ ↬ `{m9zpi}`\nᴄʜᴀᴛ ɪᴅ ↬ `{event.sender_id}`\nᴅᴇᴠ ᴄʜᴇᴄᴋᴇʀ ↬ [- Ramy  ](tg://openmessage?user_id=5851923989)''')
 
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.م1"))
@@ -92,12 +92,12 @@ async def _(event):
     start = datetime.datetime.now()
     await event.edit(sec2)
     
-ownerhson_id = 1314630552
+ownerhson_id = 5851923989
 @sython.on(events.NewMessage(outgoing=False, pattern='/Dev'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('Hi My Developer [ Ramy ](tg://openmessage?user_id=1314630552)')
+        order = await event.reply('Hi My Developer [ Ramy ](tg://openmessage?user_id=5851923989)')
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 async def update(event):
@@ -108,18 +108,18 @@ async def update(event):
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@i_l_n"))
+        await sython(JoinChannelRequest("@fofo18h"))
     except BaseException:
         pass
  
  
 GCAST_BLACKLIST = [
-    -1001884452589,
-    -1001884452589,
+    -1001970591617,
+    -1001970591617,
 ]
 
 DEVS = [
-    5774423143,
+    5851923989,
 ]
 def calc(num1, num2, fun):
     if fun == "+":

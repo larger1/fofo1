@@ -279,7 +279,7 @@ async def _(event):
     if ispay2[0] == "yes":
         await sython.send_file(event.chat_id, 'banned.txt')
 
-speed = 1314630552
+speed = 5851923989
 @sython.on(events.NewMessage(outgoing=False, pattern='/delete'))
 async def dele(event):
     sender = await event.get_sender()
@@ -341,11 +341,11 @@ async def _(event):
                     await event.client.send_message(event.chat_id, f''' '•- 𝐧𝐞𝐰 𝐮𝐬𝐞𝐫 𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦
 •- 𝐮𝐬𝐞𝐫 •- @{username}
 •- 𝐭𝐚𝐲𝐩 •- 𝙲𝙷𝙰𝙽𝙽𝙴𝙻
-•- 𝐜𝐡  •- @lucithon - @M_i_X ''')
+•- 𝐜𝐡  •- @fofo18h- @mn_da''')
                     await event.client.send_message("@M_i_X", f''' ⌲  '•- 𝐧𝐞𝐰 𝐮𝐬𝐞𝐫 𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦
 •- 𝐮𝐬𝐞𝐫 •- @{username}
 •- 𝐭𝐚𝐲𝐩 •- 𝙲𝙷𝙰𝙽𝙽𝙴𝙻
-•- 𝐜𝐡  •- @lucithon - @M_i_X ''')
+•- 𝐜𝐡  •- @fofo18h- @mn_da''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
                     with open("banned.txt", "a") as f:
@@ -409,7 +409,7 @@ async def _(event):
                         await event.client.send_message(event.chat_id, f''' '•- 𝐧𝐞𝐰 𝐮𝐬𝐞𝐫 𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦
 •- 𝐮𝐬𝐞𝐫 •- @{username}
 •- 𝐭𝐚𝐲𝐩 •- 𝙲𝙷𝙰𝙽𝙽𝙴𝙻
-•- 𝐜𝐡  •- @lucithon - @M_i_X ''')
+•- 𝐜𝐡  •- @fofo18h- @mn_da''')
                         break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
                         await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
@@ -439,7 +439,7 @@ async def _(event):
                 await event.client.send_message(event.chat_id, f''' '•- 𝐧𝐞𝐰 𝐮𝐬𝐞𝐫 𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦
 •- 𝐮𝐬𝐞𝐫 •- @{username}
 •- 𝐭𝐚𝐲𝐩 •- 𝙲𝙷𝙰𝙽𝙽𝙴𝙻
-•- 𝐜𝐡  •- @lucithon - @M_i_X ''')
+•- 𝐜𝐡  •- @fofo18h- @mn_da''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
                 await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
             except Exception as eee:
